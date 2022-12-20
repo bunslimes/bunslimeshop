@@ -3,11 +3,11 @@ body::-webkit-scrollbar {
 }
 @font-face {
     font-family: websiteFont;
-    src: url(/assets/font/SF-Pro-Display-Ultralight.ttf);
+    src: url(/assets/ultralight.ttf);
 }
 @font-face {
     font-family: websiteFontBigger;
-    src: url(/assets/font/SF-Pro-Display-Light.ttf);
+    src: url(/assets/light.ttf);
 }
 ul {
     list-style-type: none;
