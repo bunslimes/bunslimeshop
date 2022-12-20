@@ -3,11 +3,11 @@ body::-webkit-scrollbar {
 }
 @font-face {
     font-family: websiteFont;
-    src: url(/bunslimeshop/assets/font/SF-Pro-Display-Ultralight.ttf);
+    src: url(/assets/font/SF-Pro-Display-Ultralight.ttf);
 }
 @font-face {
     font-family: websiteFontBigger;
-    src: url(/bunslimeshop/assets/font/SF-Pro-Display-Light.ttf);
+    src: url(/assets/font/SF-Pro-Display-Light.ttf);
 }
 ul {
     list-style-type: none;
