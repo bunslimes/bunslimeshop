@@ -1,0 +1,90 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+@font-face {
+    font-family: websiteFont;
+    src: url(/assets/font/SF-Pro-Display-Ultralight.ttf);
+}
+@font-face {
+    font-family: websiteFontBigger;
+    src: url(/assets/font/SF-Pro-Display-Light.ttf);
+}
+ul {
+    list-style-type: none;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5a0ca;
+    font-family: websiteFontBigger;
+    margin-bottom: 0.3rem;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#f37db8;
+}
+.imgholder {
+    float: left;
+    width: 33.33333333333%;
+}
+.specialcurve1 {
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 0.3rem;
+}
+.specialcurve2 {
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 0.3rem;
+}
+html, body {
+    height: 100%;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    background-color: rgb(255, 227, 249);
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    border-radius: 1rem;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 0.3rem;
+}
+.curve {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+p {
+    margin: 0 auto;
+    background-color: #f5a0ca;
+    font-family: websiteFont;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+h1 {
+    background-color: #f5a0ca;
+    font-family: websiteFontBigger;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
+}
